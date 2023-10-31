@@ -39,7 +39,7 @@ function App() {
         {
           mydata.data && mydata.data.map((item, index) => (
             <div key={index}>
-              <p className="border-b-4 border-gray-700 m-2 text-xl font-semibold">{item.name}</p>
+              <p className="border-b-4 border-gray-700 m-2 text-xl font-semibold text-red-500">{item.name}</p>
               <div className="flex md:flex-row flex-col w-full gap-5 md:m-5">
 
                 {item.productList && item.productList.map((e,ind) => (
